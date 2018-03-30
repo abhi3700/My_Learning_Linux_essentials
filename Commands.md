@@ -11,4 +11,6 @@
 * ```CTRL + Y``` - Paste
 * ```sudo apt-get update``` - Update the packages
 * ```cd /``` - Go to the root 
+* ```history -c``` - clears the screen
+  ```history``` - displays the history commands
 
