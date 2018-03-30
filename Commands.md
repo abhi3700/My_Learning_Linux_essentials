@@ -13,4 +13,9 @@
 * ```cd /``` - Go to the root 
 * ```history -c``` - clears the screen, 
   ```history``` - displays the history commands
+* ```echo``` - prints the word 'hello' after 'echo'.
+* ```hostname``` - prints the computer name
+* ```date``` - prints the date
+* ```bash -V``` - prints the bash's version
+
 
