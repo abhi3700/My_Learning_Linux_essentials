@@ -17,5 +17,16 @@
 * ```hostname``` - prints the computer name
 * ```date``` - prints the date
 * ```bash -V``` - prints the bash's version
+* ```cd ~``` - takes to the home directory
+* Opening the explorer within the bash shell like in windows cmd.
+	```alias start='cmd.exe /c start'```
+   DONE!!.
+	Now, open it through - 
+	```start .```	
 
+   Note: it will not start an explorer on linux only files, but any mapped windows file systems will work.
+   **Source** - https://stackoverflow.com/questions/44245721/launching-explorer-from-wsl
 
+* ```sudo nano [Filename]``` - Opens any type of file
+  E.g. - ```sudo nano config.ini```
+  
