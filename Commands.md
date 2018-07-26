@@ -1,6 +1,7 @@
 * #### root, home
-    * / - root directory
-    * ~ - home directory
+    * `/`  -> root directory
+    * `~`  -> home directory
+    
 * #### `uname -a`
 **o/p** - displays the system architecture. Here, x86_64 means the system is 64-bit. If you will get i386 or i686 then the system is 32-bit. 
 
