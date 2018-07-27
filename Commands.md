@@ -7,15 +7,22 @@
 
 Linux Abhijit 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 x86_64 x86_64 x86_64 GNU/Linux
 
-* #### Editor - Install Sublime Text 3
+* #### Editor - Install Sublime Text 3 in Ubuntu
+	**Method-1: Only linux involved**
     * `cd ~`
     * `wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb`
     * if 'Unable to load libgdk-x11-2.0.so' , then `sudo apt-get install libgtk2.0-0`
     * Now, `subl` command wouldn't work until added onto the path.
     * the directory in which the sublime text gets installed - "/opt/sublime_text"
-    * **Method-1 (recommended):** `alias subl='"/mnt/f/Softwares/Sublime Text 3/subl.exe"'` - fetching installed repo in windows from ubuntu through WSL due to the [Interoperability](https://blogs.msdn.microsoft.com/wsl/2016/10/19/windows-and-ubuntu-interoperability/) 
+	* `ln -s "/opt/sublime_text" /usr/local/bin/subl` [PERMANENT] <br/>
+					OR <br/>
+	  `alias subl='"/opt/sublime_text"'`	 [TEMPORARY]  Temporary i.e. will exist within that bash window 
+	
+    **Method-2: Access the sublime (installed in windows) [RECOMMENDED]** 
+	* `ln -s "/mnt/f/Softwares/Sublime Text 3/subl.exe" /usr/local/bin/subl` [PERMANENT] <br/>
+						OR <br/>
+	  `alias subl='"/mnt/f/Softwares/Sublime Text 3/subl.exe"'` [TEMPORARY]- fetching installed repo in windows from ubuntu through WSL due to the [Interoperability](https://blogs.msdn.microsoft.com/wsl/2016/10/19/windows-and-ubuntu-interoperability/) 
       
-      **Method-2:** `ln -s "/opt/sublime_text" /usr/local/bin/subl`
     
     [SOURCE](http://docs.sublimetext.info/en/latest/getting_started/install.html)
 * #### PATH check
