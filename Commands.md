@@ -25,6 +25,26 @@ Linux Abhijit 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 
       
     
     [SOURCE](http://docs.sublimetext.info/en/latest/getting_started/install.html)
+* #### Seach Files, Folders
+	```
+	find Search-Directory-Path -name file-name-to-search
+	
+	## only search for files ##
+	find Search-Directory-Path -type f -name file-name-to-search
+	
+	## only search for directories/folders ##
+	find Search-Directory-Path -type d -name dir-name-to-search
+	```
+	E.g.- 
+	* `$ find /home/user/ -name xyz`
+	* `$ sudo find / -name passwd`
+	* `$ sudo find / -type f -name "birthday-party.mp4"`
+	* `$ sudo find / -type f -name "*.mp4"`
+	* `$ sudo find / -type f -iname "*.mp4"`
+	* `$locate resume.pdf`
+	
+  [Source](https://www.cyberciti.biz/faq/linux-how-can-i-find-a-file-on-my-system/)
+	
 * #### PATH check
     * `echo $PATH` - with WSL, shows Ubuntu + windows environment variables.
     
