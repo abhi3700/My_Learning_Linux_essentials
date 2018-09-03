@@ -1,11 +1,14 @@
 * #### root, home
     * `/`  -> root directory
-    * `~`  -> home directory
-    
+    * `~`  -> "home/{user_name}/" directory, where user_name = name of the user say abhi.
+* copy and move a file
+	- copy using `cp source/location destination/location`
+	- move using `mv source/location destination/location`
+		
 * #### `uname -a`
-**o/p** - displays the system architecture. Here, x86_64 means the system is 64-bit. If you will get i386 or i686 then the system is 32-bit. 
+	**o/p** - displays the system architecture. Here, x86_64 means the system is 64-bit. If you will get i386 or i686 then the system is 32-bit. 
 
-Linux Abhijit 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 x86_64 x86_64 x86_64 GNU/Linux
+	Linux Abhijit 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 * #### Editor - Install Sublime Text 3 in Ubuntu
 	**Method-1: Only linux involved**
