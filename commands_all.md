@@ -90,3 +90,7 @@
 	**NOTE: It doesn't work inside .sh files.**
 	
 	So, in case of any need, use it externally for the terminal, and then run the script.
+* #### ln
+	**NOTE: For shell script files, it's little different.**
+	
+	`$ sudo ln -s ~/scripts/eoscc.sh /usr/local/bin/eoscc`
