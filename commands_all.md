@@ -94,3 +94,9 @@
 	**NOTE: For shell script files, it's little different.**
 	
 	`$ sudo ln -s ~/scripts/eoscc.sh /usr/local/bin/eoscc`
+* #### bash-profile
+	`$ nano ~/.profile` - type in any directory location on Bash terminal.
+	
+	Usages:
+	- It gets executed when the bash terminal is loaded.
+	- It is used as a PATH, meaning in order to search shortcuts from paths.
