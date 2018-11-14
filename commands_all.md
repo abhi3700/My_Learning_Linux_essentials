@@ -86,3 +86,7 @@
 * #### ```sudo nano [Filename]``` - Opens any type of file
   E.g. - ```sudo nano config.ini```
   
+* #### alias
+	**NOTE: It doesn't work inside .sh files.**
+	
+	So, in case of any need, use it externally for the terminal, and then run the script.
