@@ -62,9 +62,10 @@
 
 ![](https://github.com/abhi3700/My_Learning_Linux_essentials/blob/master/Images/2.png)
 
-* #### ```CTRL + L``` - clears the screen
-* #### ```CTRL + D``` - logout 
-* #### ```CTRL + Y``` - Paste
+* #### <kbd>ctrl+l</kbd> - clears the screen
+* #### <kbd>ctrl+d</kbd> - logout 
+* #### <kbd>ctrl+y</kbd> - Paste
+* #### `ls -a` - shows all the files including hidden ones.
 * #### ```sudo apt-get update``` - Update the packages
 * #### ```cd /``` - Go to the root 
 * #### ```history -c``` - clears the screen, 
@@ -100,3 +101,5 @@
 	Usages:
 	- It gets executed when the bash terminal is loaded.
 	- It is used as a PATH, meaning in order to search shortcuts from paths.
+* #### Hidden files
+	These files starts with `.` character like `.profile` present in home location i.e. `~/.profile`
