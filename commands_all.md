@@ -75,6 +75,8 @@
 * #### ```date``` - prints the date
 * #### ```bash -V``` - prints the bash's version
 * #### ```cd ~``` - takes to the home directory
+* #### `which cmake` - prints the location of the command.
+* #### `tree` - shows the folder structure in tree picture.
 * #### Opening the explorer within the bash shell like in windows cmd.
 	```alias start='cmd.exe /c start'```
    DONE!!.
@@ -103,3 +105,4 @@
 	- It is used as a PATH, meaning in order to search shortcuts from paths.
 * #### Hidden files
 	These files starts with `.` character like `.profile` present in home location i.e. `~/.profile`
+* 
