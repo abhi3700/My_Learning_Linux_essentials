@@ -105,4 +105,6 @@
 	- It is used as a PATH, meaning in order to search shortcuts from paths.
 * #### Hidden files
 	These files starts with `.` character like `.profile` present in home location i.e. `~/.profile`
-* 
+* #### Cryptographic Hash
+  `$ shasum -a 256 hello.txt` - gives SHA256 checksum.
+  [Reference](http://manpages.ubuntu.com/manpages/bionic/man1/shasum.1p.html)
