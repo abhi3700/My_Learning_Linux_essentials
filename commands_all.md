@@ -108,3 +108,5 @@
 * #### Cryptographic Hash
   `$ shasum -a 256 hello.txt` - gives SHA256 checksum.
   [Reference](http://manpages.ubuntu.com/manpages/bionic/man1/shasum.1p.html)
+* #### Install a `.deb` package
+	`$ sudo apt-get install ./EOSStudio-0.2.0.deb`
