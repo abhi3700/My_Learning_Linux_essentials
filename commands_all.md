@@ -110,3 +110,8 @@
   [Reference](http://manpages.ubuntu.com/manpages/bionic/man1/shasum.1p.html)
 * #### Install a `.deb` package
 	`$ sudo apt-get install ./EOSStudio-0.2.0.deb`
+
+* #### `unexpected end of file` error in bash script
+	try to convert from dos format to unix for the shell file by using: `$ dos2unix setup.sh`
+	
+	if `dos2unix` is not installed, then install using: `$ sudo apt-get install dos2unix`
