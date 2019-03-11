@@ -115,3 +115,24 @@
 	try to convert from dos format to unix for the shell file by using: `$ dos2unix setup.sh`
 	
 	if `dos2unix` is not installed, then install using: `$ sudo apt-get install dos2unix`
+* #### `ls` - shows the list w/o hidden files (starts with `.`)
+```console
+README.md
+```
+* #### `ls -l` - shows the list (with detailed data) w/o hidden files (starts with `.`)
+```console
+total 0
+-rwxrwxrwx 1 abhijit abhijit 61 Mar 11 12:09 README.md
+```
+* #### `ls -a` - shows the list.
+```console
+.  ..  .git  README.md
+```
+* #### `ls -al` - shows the list (with detailed data)
+```console
+total 0
+drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .
+drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 ..
+drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
+-rwxrwxrwx 1 abhijit abhijit   61 Mar 11 12:09 README.md
+```
