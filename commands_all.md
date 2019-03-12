@@ -142,5 +142,6 @@ drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
 	- `$ sudo mount -t drvfs I: /mnt/i` - Mount removable media (e.g. - I:)
 	- `$ sudo umount /mnt/i` - Unmount removable media
 	
-	#### NOTE: Just during first time run the `mount` command, & during unmount use the usual way to eject pendrive. [Tested OK]
+	#### NOTE: Just during first time (when inserted) run the `mount` command (open bash in pendrive directory => it will open bash in home directory & then just run `./mount.sh` ), & during unmount use the usual way to eject pendrive. <br/> 
+	#### [Tested OK]
 	
