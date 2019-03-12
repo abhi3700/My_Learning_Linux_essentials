@@ -136,3 +136,11 @@ drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 ..
 drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
 -rwxrwxrwx 1 abhijit abhijit   61 Mar 11 12:09 README.md
 ```
+* #### Access removable disk on WSL Windows 10:
+	Follow the steps:
+	- `$ sudo mkdir /mnt/i` - Removable disk on Disk I:. So, a directory named `i` is created inside `mnt`.
+	- `$ sudo mount -t drvfs I: /mnt/i` - Mount removable media (e.g. - I:)
+	- `$ sudo umount /mnt/i` - Unmount removable media
+	
+	#### NOTE: Just during first time run the `mount` command, & during unmount use the usual way to eject pendrive. [Tested OK]
+	
