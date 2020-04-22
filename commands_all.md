@@ -144,4 +144,8 @@ drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
 	
 	#### NOTE: Just during first time (when inserted) run the `mount` command (open bash in pendrive directory => it will open bash in home directory & then just run `./mount.sh` ), & during unmount use the usual way to eject pendrive. <br/> 
 	#### [Tested OK]
+* #### List all the installed compilers using
+```console
+dpkg --list | grep compiler
+```
 	
