@@ -4,15 +4,16 @@
 * copy and move a file
 	- copy using `cp source/location destination/location`
 	- move using `mv source/location destination/location`
-	
+
 	<br/>
 #### NOTE: Although a file can be copied or moved into the Ubuntu folder in C:\ drive. But, one should not do that because it will not show in the folder in ubuntu file directories, when accessed via `bash-cmd`.
-		
+
 * #### `uname -a`
 	**o/p** - displays the system architecture. Here, x86_64 means the system is 64-bit. If you will get i386 or i686 then the system is 32-bit. 
 
 	Linux Abhijit 4.4.0-17134-Microsoft #137-Microsoft Thu Jun 14 18:46:00 PST 2018 x86_64 x86_64 x86_64 GNU/Linux
-
+* > NOTE: In linux, `bash` terminal, everything is case-sensitive. E.g. if want to find "NumpCpp.hpp", type `$ NumC` & then tab, it will appear, or else, it won't autocomplete.
+* During installation of any package, it is extracted into this folder: __"/usr/local/include/"__, like __C:\ drive in Windows OS__. So, any custom package if wants to be added, please add it into this directory i.e. __"/usr/local/include"__
 * #### Editor - Install Sublime Text 3 in Ubuntu
 	**Method-1: Only linux involved**
     * `cd ~`
