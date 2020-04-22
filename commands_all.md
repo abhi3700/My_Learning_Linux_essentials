@@ -148,4 +148,8 @@ drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
 ```console
 dpkg --list | grep compiler
 ```
-	
+* Navigate to a directory with space
+	- E.g. "C:\Program Files\mingw-w64"
+```console
+$ cd /mnt/c/Program\ Files/mingw-w64/
+```
