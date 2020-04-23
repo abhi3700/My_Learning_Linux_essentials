@@ -113,34 +113,40 @@ find Search-Directory-Path -type d -name dir-name-to-search
 * #### bash-profile
 	`$ nano ~/.profile` - type in any directory location on Bash terminal.
 	
-	Usages:
-	- It gets executed when the bash terminal is loaded.
-	- It is used as a PATH, meaning in order to search shortcuts from paths.
+	- Usages:
+		+ It gets executed when the bash terminal is loaded.
+		+ It is used as a PATH, meaning in order to search shortcuts from paths.
+
 * #### Hidden files
-	These files starts with `.` character like `.profile` present in home location i.e. `~/.profile`
+	- These files starts with `.` character like `.profile` present in home location i.e. `~/.profile`
+
 * #### Cryptographic Hash
-	`$ shasum -a 256 hello.txt` - gives SHA256 checksum.
-	[Reference](http://manpages.ubuntu.com/manpages/bionic/man1/shasum.1p.html)
+	- `$ shasum -a 256 hello.txt` - gives SHA256 checksum.
+	- [Reference](http://manpages.ubuntu.com/manpages/bionic/man1/shasum.1p.html)
+
 * #### Install a `.deb` package
-	`$ sudo apt-get install ./EOSStudio-0.2.0.deb`
+	- `$ sudo apt-get install ./EOSStudio-0.2.0.deb`
 
 * #### `unexpected end of file` error in bash script
-	try to convert from dos format to unix for the shell file by using: `$ dos2unix setup.sh`
-	
-	if `dos2unix` is not installed, then install using: `$ sudo apt-get install dos2unix`
+	- try to convert from dos format to unix for the shell file by using: `$ dos2unix setup.sh`
+	- if `dos2unix` is not installed, then install using: `$ sudo apt-get install dos2unix`
+
 * #### `ls` - shows the list w/o hidden files (starts with `.`)
 ```console
 README.md
 ```
+
 * #### `ls -l` - shows the list (with detailed data) w/o hidden files (starts with `.`)
 ```console
 total 0
 -rwxrwxrwx 1 abhijit abhijit 61 Mar 11 12:09 README.md
 ```
+
 * #### `ls -a` - shows the list.
 ```console
 .  ..  .git  README.md
 ```
+
 * #### `ls -al` - shows the list (with detailed data)
 ```console
 total 0
@@ -149,18 +155,22 @@ drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 ..
 drwxrwxrwx 1 abhijit abhijit 4096 Mar 11 12:09 .git
 -rwxrwxrwx 1 abhijit abhijit   61 Mar 11 12:09 README.md
 ```
+
 * #### Access removable disk on WSL Windows 10:
-	Follow the steps:
-	- `$ sudo mkdir /mnt/i` - Removable disk on Disk I:. So, a directory named `i` is created inside `mnt`.
-	- `$ sudo mount -t drvfs I: /mnt/i` - Mount removable media (e.g. - I:)
-	- `$ sudo umount /mnt/i` - Unmount removable media
+	- Follow the steps:
+		+ `$ sudo mkdir /mnt/i` - Removable disk on Disk I:. So, a directory named `i` is created inside `mnt`.
+		+ `$ sudo mount -t drvfs I: /mnt/i` - Mount removable media (e.g. - I:)
+		+ `$ sudo umount /mnt/i` - Unmount removable media
 	
-	#### NOTE: Just during first time (when inserted) run the `mount` command (open bash in pendrive directory => it will open bash in home directory & then just run `./mount.sh` ), & during unmount use the usual way to eject pendrive. <br/> 
-	#### [Tested OK]
+	> NOTE: Just during first time (when inserted) run the `mount` command (open bash in pendrive directory => it will open bash in home directory & then just run `./mount.sh` ), & during unmount use the usual way to eject pendrive. <br/> 
+	
+	> [Tested OK]
+
 * #### List all the installed compilers using
 ```console
 dpkg --list | grep compiler
 ```
+
 * Navigate to a directory with space
 	- E.g. "C:\Program Files\mingw-w64"
 ```console
