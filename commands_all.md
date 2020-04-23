@@ -93,7 +93,16 @@
 * #### alias
 	**NOTE: It doesn't work inside .sh files.**
 	
+	- E.g. call python3 as python in terminal
+		+ `$ nano ~/.bashrc` - open ".bashrc" file in bash terminal
+		+ `alias python=python3` - add this line in the file as shown below:
+
+	<p align="left">
+  	<img src="./Images/linux_bashrc_alias.jpg" alt="" width="" height="">
+	</p>
+
 	So, in case of any need, use it externally for the terminal, and then run the script.
+	
 * #### ln
 	**NOTE: For shell script files, it's little different.**
 	
