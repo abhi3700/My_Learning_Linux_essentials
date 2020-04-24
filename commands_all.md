@@ -183,7 +183,7 @@ $ cd /mnt/c/Program\ Files/mingw-w64/
 		<img src="./Images/linux_grep_pattern.jpg" alt="" width="" height="">
 	</p>
 
-* #### `grep` - search a pattern in a directory
+* #### `grep` - search a pattern in active directory (in which you are present)
 	- `$ grep python3 * -r`
 
 	<p align="left">
