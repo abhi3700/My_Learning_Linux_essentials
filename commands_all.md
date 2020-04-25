@@ -7,6 +7,8 @@
 
 > NOTE: Although a file can be copied or moved into the Ubuntu folder in C:\ drive. But, one should not do that because it will not show in the folder in ubuntu file directories, when accessed via `bash-cmd`.
 
+* `/etc` - this directory contains mostly downloaded files.
+
 * #### `uname -a`
 	- **o/p** - displays the system architecture. Here, x86_64 means the system is 64-bit. If you will get i386 or i686 then the system is 32-bit. 
 ```console
@@ -66,7 +68,8 @@ find Search-Directory-Path -type d -name dir-name-to-search
 
 * #### <kbd>ctrl+l</kbd> - clears the screen
 * #### <kbd>ctrl+d</kbd> - logout 
-* #### <kbd>ctrl+y</kbd> - Paste
+* #### <kbd>ctrl + c</kbd> - Copy  [in bash (ubuntu via WSL)]
+* #### <kbd>ctrl + shift + v</kbd> - Paste	[in bash (ubuntu via WSL)]
 * #### `ls -a` - shows all the files including hidden ones.
 * #### ```sudo apt-get update``` - Update the packages
 * #### ```cd /``` - Go to the root 
@@ -77,7 +80,7 @@ find Search-Directory-Path -type d -name dir-name-to-search
 * #### ```date``` - prints the date
 * #### ```bash --version``` - prints the bash's version
 * #### ```cd ~``` - takes to the home directory
-* #### `which cmake` - prints the location of the command.
+* #### `which cmake` - prints the location of the command. NOTE: only lists the binary. Also, don't bother about current directory, it searches globally.
 * #### `tree` - shows the folder structure in tree picture.
 * #### Opening the explorer within the bash shell like in windows cmd.
 	```alias start='cmd.exe /c start'```
@@ -189,3 +192,19 @@ $ cd /mnt/c/Program\ Files/mingw-w64/
 	<p align="left">
 		<img src="./Images/linux_grep_pattern_everywhere.jpg" alt="" width="" height="">
 	</p>
+
+* #### `whereis` - locate the binary, source, and manual page files for a command
+	- E.g. 1
+	<p align="left">
+		<img src="./Images/linux_whereis.jpg" alt="" width="" height="">
+	</p>
+
+* #### `whereis` with `grep` - highlight the searched pattern
+	- E.g. 1
+	<p align="left">
+		<img src="./Images/linux_whereis_grep.jpg" alt="" width="" height="">
+	</p>
+
+	> NOTE: It doesn't bother about the current directory, it searches globally always.
+
+
