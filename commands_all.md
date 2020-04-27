@@ -1,4 +1,6 @@
 * Install a package: `sudo apt install python3`
+* Update a package: `sudo apt update python3`
+* Upgrade all packages: `sudo apt upgrade`
 * Remove a package: `sudo apt remove python3`
 * Remove it's dependencies: `sudo apt autoremove`
 * List installed packages: `apt list --installed`
