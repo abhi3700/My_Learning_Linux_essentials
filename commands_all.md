@@ -1,3 +1,21 @@
+* Install a package: `sudo apt install python3`
+* Remove a package: `sudo apt remove python3`
+* Remove it's dependencies: `sudo apt autoremove`
+* List installed packages: `apt list --installed`
+* search for a particular installed package: `apt list --installed | grep git`
+```console
+$ apt list --installed | grep git
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+findutils/bionic,now 4.6.0+git+20170828-2 amd64 [installed]
+git/bionic,now 1:2.26.2-0ppa1~ubuntu18.04.1 amd64 [installed]
+git-man/bionic,now 1:2.26.2-0ppa1~ubuntu18.04.1 all [installed,automatic]
+libicu-le-hb-dev/bionic,now 1.0.3+git161113-4 amd64 [installed,automatic]
+libicu-le-hb0/bionic,now 1.0.3+git161113-4 amd64 [installed,automatic]
+librtmp1/bionic,now 2.4+20151223.gitfa8646d.1-1 amd64 [installed,automatic]
+net-tools/bionic,now 1.60+git20161116.90da8a0-1ubuntu1 amd64 [installed,automatic]
+```
 * #### root, home
 		* `/`  -> root directory
 		* `~`  -> "home/{user_name}/" directory, where user_name = name of the user say abhi.
