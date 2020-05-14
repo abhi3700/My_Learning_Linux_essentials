@@ -18,6 +18,14 @@ libicu-le-hb0/bionic,now 1.0.3+git161113-4 amd64 [installed,automatic]
 librtmp1/bionic,now 2.4+20151223.gitfa8646d.1-1 amd64 [installed,automatic]
 net-tools/bionic,now 1.60+git20161116.90da8a0-1ubuntu1 amd64 [installed,automatic]
 ```
+* Install a package from Downloaded source
+	- open the directory containing the folder (in `.tar.gz`, `.tar.xz` generally)
+	- `$ tar -xzf archive-name.tar.gz`
+	- `$ cd archive-name`
+	- `$ ./configure`
+	- `$ make`
+	- `$ sudo make install`
+	
 * #### root, home
 		* `/`  -> root directory
 		* `~`  -> "home/{user_name}/" directory, where user_name = name of the user say abhi.
