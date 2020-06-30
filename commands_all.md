@@ -100,6 +100,7 @@ find Search-Directory-Path -type d -name dir-name-to-search
 * #### <kbd>ctrl + c</kbd> - Copy  [in bash (ubuntu via WSL)]
 * #### <kbd>ctrl + shift + v</kbd> - Paste	[in bash (ubuntu via WSL)]
 * #### `ls -a` - shows all the files including hidden ones.
+* #### `ls -a -t` - shows all the files including hidden ones (by date).
 * #### ```sudo apt-get update``` - Update the packages
 * #### ```cd /``` - Go to the root 
 * #### ```history -c``` - clears the screen, 
