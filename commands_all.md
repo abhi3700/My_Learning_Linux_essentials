@@ -137,6 +137,10 @@ find Search-Directory-Path -type d -name dir-name-to-search
 
 	So, in case of any need, use it externally for the terminal, and then run the script.
 	
+	- remove alias via `$ unalias <alias_name>`
+	- remove all aliases via `$ unalias -a`
+	- list all alias via `$ alias`
+	
 * #### ln
 
 	> NOTE: For shell script files, it's little different. 
