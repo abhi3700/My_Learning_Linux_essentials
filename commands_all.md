@@ -130,11 +130,13 @@ find Search-Directory-Path -type d -name dir-name-to-search
 	- E.g. call python3 as python in terminal
 		+ `$ nano ~/.bashrc` - open ".bashrc" file in bash terminal
 		+ `alias python=python3` - add this line in the file as shown below:
-
 	<p align="left">
 		<img src="./Images/linux_bashrc_alias.jpg" alt="" width="" height="">
-	</p>
-
+	</p>	
+		
+		+ `$ source ~/.bashrc` - to implement the alias
+		+ `$ alias` - to view the list of aliases. Now, check if the alias is added. 
+		
 	So, in case of any need, use it externally for the terminal, and then run the script.
 	
 	- remove alias via `$ unalias <alias_name>`
