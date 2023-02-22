@@ -127,11 +127,20 @@ find Search-Directory-Path -type d -name dir-name-to-search
 - #### `which cmake` - prints the location of the command. NOTE: only lists the binary. Also, don't bother about current directory, it searches globally.
 - #### `tree` - shows the folder structure in tree picture.
 
-```console
-$ tree .
-$ tree -L 1
-$ tree -L 2
-```
+  ```bash
+  # shows the folder structure in current directory
+  $ tree .
+  # shows the folder structure in current directory upto 1 level
+  $ tree -L 1
+  # shows the folder structure in current directory upto 2 levels
+  $ tree -L 2
+  # only directories upto level 2
+  $ tree -L 2 -d
+  # ignore a folder(s) in the current directory & show upto 2 levels
+  $ tree -L 2 -I "node_modules|dist"
+  # ignore a folder(s) in the current directory and all sub-directories & show upto 2 levels
+  $ tree -L 2 -P "node_modules|dist"
+  ```
 
 - #### Opening the explorer within the bash shell like in windows cmd.
 
